@@ -1,0 +1,29 @@
+{
+  "웹 표준": ["웹 표준", "웹표준", "Web Standard"],
+  "반응형 웹": ["반응형 웹", "반응형웹", "반응형", "Responsive Web", "Responsive"],
+  "UX": ["UX", "사용자 경험"],
+  "UI": ["UI", "사용자 인터페이스"],
+  "Angular": ["Angular", "앵귤러", "앙귤라"],
+  "AngularJS": [
+    "AngularJS", "Angular.js",
+    "Angular1", "AngularJS1", "Angular.js1",
+    "Angular 1", "AngularJS 1", "Angular.js 1",
+    "앵귤러1", "앙귤라1", "앵귤러JS", "앵귤러JS1", "앙귤라JS1",
+    "앵귤러 1", "앙귤라 1", "앵귤러 JS", "앵귤러 JS1", "앙귤라 JS1",
+    "앵귤러JS 1", "앙귤라JS 1", "앵귤러 JS 1", "앙귤라 JS 1"
+  ],
+  "Angular2": [
+    "Angular2", "AngularJS2", "Angular.js2",
+    "Angular 2", "AngularJS 2", "Angular.js 2",
+    "앵귤러2", "앙귤라2", "앵귤러JS2", "앙귤라JS2",
+    "앵귤러 2", "앙귤라 2", "앵귤러 JS2", "앙귤라 JS2",
+    "앵귤러JS 2", "앙귤라JS 2", "앵귤러 JS 2", "앙귤라 JS 2"
+  ],
+  "Angular4": [
+    "Angular4", "AngularJS4", "Angular.js4",
+    "Angular 4", "AngularJS 4", "Angular.js 4",
+    "앵귤러4", "앙귤라4", "앵귤러JS4", "앙귤라JS4",
+    "앵귤러 4", "앙귤라 4", "앵귤러 JS4", "앙귤라 JS4",
+    "앵귤러JS 4", "앙귤라JS 4", "앵귤러 JS 4", "앙귤라 JS 4"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "keyword-dic",
+  "version": "1.0.0",
+  "description": "Keyword about programming dictionary",
+  "bin": {
+    "keyword-dic": "./dic.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfectacle/keyword-dic.git"
+  },
+  "keywords": [
+    "Programming",
+    "Keyword",
+    "Dictionary",
+    "Front-end",
+    "Back-end",
+    "Server",
+    "Crawler"
+  ],
+  "author": {
+    "name": "perfectacle",
+    "email": "perfectacle@naver.com",
+    "url": "https://perfectacle.github.io/"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  }],
+  "bugs": {
+    "url": "https://github.com/perfectacle/keyword-dic/issues"
+  },
+  "homepage": "https://github.com/perfectacle/keyword-dic#readme"
+}
