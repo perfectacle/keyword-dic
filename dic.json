@@ -183,5 +183,15 @@
   "Tomcat": ["톰캣", "Tomcat"],
   "웹서버": ["Web server", "웹서버", "웹 서버"],
   "Apache": ["Apache", "아파치"],
-  "nginx": ["nginx", "엔진엑스", "엔진 엑스"]
+  "nginx": ["nginx", "엔진엑스", "엔진 엑스"],
+  "Firebase": ["Firebase", "파이어베이스"],
+  "Trello": ["Trello", "트렐로"],
+  "Swagger": ["Swagger", "스웨거"],
+  "ElasticSearch": ["ElasticSearch", "Elastic Search", "엘라스틱 서치", "엘라스틱서치"],
+  "Logstash": ["Logstash"],
+  "Kibana": ["Kibana", "키바나"],
+  "git": ["git", "깃"],
+  "github": ["github", "깃헙"],
+  "svn": ["svn", "subversion"],
+  "버전 관리": ["버전 관리", "버전관리", "형상관리", "형상 관리"]
 }
