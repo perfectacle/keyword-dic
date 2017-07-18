@@ -2,9 +2,7 @@
   "name": "keyword-dic",
   "version": "1.0.0",
   "description": "Keyword about programming dictionary",
-  "bin": {
-    "keyword-dic": "./dic.json"
-  },
+  "main": "./dic.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/perfectacle/keyword-dic.git"
