@@ -59,17 +59,16 @@ IT와 관련된 키워드라면 뭐든지 환영입니다.
 ```bash
 # using npm
 npm i -S keyword-dic
+
 # usiny yarn
 yarn add keyword-dic
 ```
 
 ## 사용하기
-### ES2015 문법
 ```javascript
+// ES2015 Syntax
 import dic from 'keyword-dic'
-```
 
-### CommonJS 방식(Node.js)
-```javascript
+// CommonJS
 const dic = require('keyword-dic');
 ```
