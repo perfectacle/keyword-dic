@@ -51,6 +51,10 @@ dic.json 파일 안에 키워드에 대한 모든 정보들이 들어있습니�
 IT와 관련된 키워드라면 뭐든지 환영입니다.  
 프론트, 백, 앱, IoT, 머신러닝, 서버, 보안 기타 등등 가리지 않습니다.
 
+기본적으로 사전은 가나다 역순으로 정렬을 시켰습니다.(신경 쓰지 않고 작업하시면 됩니다.)  
+자바를 찾고 해당 문자들을 지우고 나면 자바스크립트 키워드를 찾을 수 없어서  
+먼저 자바스크립트를 찾고 그 후에 자바를 찾게 끔 시키려고 한 것이니 크게 신경쓰지 않으셔도 됩니다.
+
 ## 설치하기
 ```bash
 # using npm
@@ -63,11 +67,9 @@ yarn add keyword-dic
 ### ES2015 문법
 ```javascript
 import dic from 'keyword-dic'
-console.log(dic);
 ```
 
 ### CommonJS 방식(Node.js)
 ```javascript
 const dic = require('keyword-dic');
-console.log(dic);
 ```

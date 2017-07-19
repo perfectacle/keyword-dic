@@ -1,197 +1,944 @@
 {
-  "웹 표준": ["웹 표준", "웹표준", "Web Standard"],
-  "반응형 웹": ["반응형 웹", "반응형웹", "반응형", "Responsive Web", "Responsive"],
-  "UX": ["UX", "사용자 경험", "User Experience"],
-  "UI": ["UI", "사용자 인터페이스", "User Interface"],
-  "Angular": ["Angular", "앵귤러", "앙귤라"],
-  "AngularJS": [
-    "AngularJS", "Angular.js",
-    "Angular1", "AngularJS1", "Angular.js1",
-    "Angular 1", "AngularJS 1", "Angular.js 1",
-    "앵귤러1", "앙귤라1", "앵귤러JS", "앵귤러JS1", "앙귤라JS1",
-    "앵귤러 1", "앙귤라 1", "앵귤러 JS", "앵귤러 JS1", "앙귤라 JS1",
-    "앵귤러JS 1", "앙귤라JS 1", "앵귤러 JS 1", "앙귤라 JS 1"
+  "함수형": [
+    "함수형 프로그래밍",
+    "함수형",
+    "FP",
+    "Functional Programming",
+    "Functional"
   ],
-  "Angular2": [
-    "Angular2", "AngularJS2", "Angular.js2",
-    "Angular 2", "AngularJS 2", "Angular.js 2",
-    "앵귤러2", "앙귤라2", "앵귤러JS2", "앙귤라JS2",
-    "앵귤러 2", "앙귤라 2", "앵귤러 JS2", "앙귤라 JS2",
-    "앵귤러JS 2", "앙귤라JS 2", "앵귤러 JS 2", "앙귤라 JS 2"
+  "포토샵": [
+    "포토샵",
+    "PhotoShop",
+    "Photo Shop"
   ],
-  "Angular4": [
-    "Angular4", "AngularJS4", "Angular.js4",
-    "Angular 4", "AngularJS 4", "Angular.js 4",
-    "앵귤러4", "앙귤라4", "앵귤러JS4", "앙귤라JS4",
-    "앵귤러 4", "앙귤라 4", "앵귤러 JS4", "앙귤라 JS4",
-    "앵귤러JS 4", "앙귤라JS 4", "앵귤러 JS 4", "앙귤라 JS 4"
+  "트랜스파일러": [
+    "트랜스파일러",
+    "Transpiler"
   ],
-  "HTML": ["HTML"],
-  "HTML5": ["HTML5", "HTML 5"],
-  "CSS": ["CSS"],
-  "CSS2": ["CSS2", "CSS 2"],
-  "CSS3": ["CSS3", "CSS 3"],
-  "React": ["React", "React.js", "React JS", "ReactJS", "리액트", "리액트js", "리액트 JS"],
-  "Vue": ["Vue", "Vue.js", "VueJS", "Vue JS", "뷰js", "뷰 js", "뷰"],
-  "웹 접근성": ["접근성", "웹접근성", "웹 접근성", "Web Accessibility"],
-  "Webpack": ["Webpack", "웹팩"],
-  "CSS 전처리기": ["CSS전처리기", "CSS 전처리기", "CSS Preprocessor"],
-  "sass": ["SASS", "SCSS", "사스"],
-  "less": ["less", "레스"],
-  "트랜스파일러": ["트랜스파일러", "Transpiler"],
-  "Babel": ["Babel", "Babel.js", "Babel JS", "바벨", "바벨JS", "바벨.JS", "바벨 JS"],
+  "템플릿 엔진": [
+    "템플릿 엔진",
+    "템플릿엔진",
+    "Template Engine"
+  ],
+  "템플릿": [
+    "템플릿",
+    "Template"
+  ],
+  "테스트": [
+    "Test",
+    "테스트"
+  ],
+  "태블릿": [
+    "태블릿",
+    "Tablet"
+  ],
+  "클라우드": [
+    "클라우드",
+    "클라우드 컴퓨팅",
+    "Cloud",
+    "Cloud Computing"
+  ],
+  "크롤링": [
+    "크롤러",
+    "크롤링",
+    "크롤",
+    "Crawler",
+    "Crawling",
+    "Crawl"
+  ],
+  "크로스브라우징": [
+    "크로스 브라우징",
+    "크로스브라우징",
+    "Cross Browsing"
+  ],
+  "컴포넌트": [
+    "컴포넌트",
+    "Component"
+  ],
+  "캔버스": [
+    "Canvas",
+    "캔버스"
+  ],
+  "제플린": [
+    "제플린",
+    "Zeplin"
+  ],
+  "정규표현식": [
+    "정규식",
+    "정규표현식",
+    "정규 표현식",
+    "RexEx",
+    "RexExp",
+    "Regular Expression"
+  ],
+  "절차 지향 프로그래밍": [
+    "절차 지향 프로그래밍",
+    "절차 지향",
+    "절차 지향형",
+    "절차 지향형 프로그래밍"
+  ],
+  "자료구조": [
+    "자료구조",
+    "자료 구조",
+    "Data Structure"
+  ],
+  "일러스트": [
+    "일러스트",
+    "일러스트레이터",
+    "Illustrator"
+  ],
+  "웹서버": [
+    "Web server",
+    "웹서버",
+    "웹 서버"
+  ],
+  "웹 표준": [
+    "웹 표준",
+    "웹표준",
+    "Web Standard"
+  ],
+  "웹 접근성": [
+    "접근성",
+    "웹접근성",
+    "웹 접근성",
+    "Web Accessibility"
+  ],
+  "영어": [
+    "영어"
+  ],
+  "애자일": [
+    "애자일",
+    "Agile"
+  ],
+  "알고리듬": [
+    "알고리듬",
+    "알고리즘",
+    "Algorithm"
+  ],
+  "스케치": [
+    "스케치",
+    "Sketch"
+  ],
+  "스칼라": [
+    "Scala",
+    "스칼라"
+  ],
+  "설계": [
+    "설계"
+  ],
+  "서버 개발": [
+    "서버 개발",
+    "서버개발"
+  ],
+  "비동기": [
+    "비동기",
+    "비동기 통신",
+    "비동기 코드"
+  ],
+  "버전 관리": [
+    "버전 관리",
+    "버전관리",
+    "형상관리",
+    "형상 관리"
+  ],
+  "반응형 웹": [
+    "반응형 웹",
+    "반응형웹",
+    "반응형",
+    "Responsive Web",
+    "Responsive"
+  ],
+  "무중단 배포": [
+    "무중단 배포"
+  ],
+  "모바일": [
+    "Mobile",
+    "모바일"
+  ],
+  "모니터링": [
+    "모니터링",
+    "Monitoring"
+  ],
+  "머신러닝": [
+    "머신 러닝",
+    "머신러닝",
+    "Machine Learning"
+  ],
+  "라즈베리 파이": [
+    "라즈베리파이",
+    "라즈베리 파이",
+    "Raspberry Pi"
+  ],
+  "딥러닝": [
+    "딥러닝",
+    "딥 러닝",
+    "Deep Learning"
+  ],
+  "디자인 패턴": [
+    "디자인패턴",
+    "디자인 패턴",
+    "Design Pattern"
+  ],
+  "네트워크": [
+    "Network",
+    "네트워크"
+  ],
+  "구글 어날리틱스": [
+    "GA",
+    "구글 애널리틱스",
+    "구글 어날리틱스",
+    "Google Analytics"
+  ],
+  "xBatis": [
+    "xBatis"
+  ],
+  "svn": [
+    "svn",
+    "subversion"
+  ],
+  "sass": [
+    "SASS",
+    "SCSS",
+    "사스"
+  ],
+  "rest API": [
+    "rest",
+    "restful",
+    "restful API",
+    "rest API"
+  ],
+  "nginx": [
+    "nginx",
+    "엔진엑스",
+    "엔진 엑스"
+  ],
+  "myBatis": [
+    "myBatis"
+  ],
+  "mustache": [
+    "mustache",
+    "mustache.js",
+    "mustache js"
+  ],
+  "less": [
+    "less",
+    "레스"
+  ],
+  "jade": [
+    "jade"
+  ],
+  "jQuery": [
+    "jQuery",
+    "제이쿼리"
+  ],
+  "iOS": [
+    "iOS"
+  ],
+  "iBatis": [
+    "iBatis"
+  ],
+  "i18n": [
+    "i18n"
+  ],
+  "http2": [
+    "http2",
+    "http 2",
+    "http2.0",
+    "http 2.0"
+  ],
+  "http": [
+    "http"
+  ],
+  "handlebars": [
+    "Handlebars",
+    "Handlebar",
+    "핸들바"
+  ],
+  "github": [
+    "github",
+    "깃헙"
+  ],
+  "git": [
+    "git",
+    "깃"
+  ],
+  "ejs": [
+    "EJS"
+  ],
+  "ajax": [
+    "ajax",
+    "에이잭스",
+    "아약스",
+    "에이작스"
+  ],
+  "XML": [
+    "XML"
+  ],
+  "XHTML": [
+    "XHTML"
+  ],
+  "Webpack": [
+    "Webpack",
+    "웹팩"
+  ],
+  "WebGL": [
+    "WebGL",
+    "웹GL",
+    "웹 GL",
+    "Web GL"
+  ],
+  "Web Socket": [
+    "WebSocket",
+    "Web Socket",
+    "웹소켓",
+    "웹 소켓",
+    "(Web)Socket",
+    "(웹)소켓",
+    "(Web)소켓",
+    "(웹)Socket",
+    "(Web) Socket",
+    "(Web) 소켓",
+    "(웹) Socket",
+    "(웹) 소켓"
+  ],
+  "WAS": [
+    "WAS",
+    "Web Application Server"
+  ],
+  "Vue": [
+    "Vue",
+    "Vue.js",
+    "VueJS",
+    "Vue JS",
+    "뷰js",
+    "뷰 js",
+    "뷰"
+  ],
+  "Unix": [
+    "유닉스",
+    "Unix"
+  ],
+  "UX": [
+    "UX",
+    "사용자 경험",
+    "User Experience"
+  ],
+  "UI": [
+    "UI",
+    "사용자 인터페이스",
+    "User Interface"
+  ],
+  "Typescript": [
+    "Typescript",
+    "TS",
+    "Type Script",
+    "타입스크립트",
+    "타입 스크립트"
+  ],
+  "Trello": [
+    "Trello",
+    "트렐로"
+  ],
+  "Travis CI": [
+    "Travis CI",
+    "Travis"
+  ],
+  "Tomcat": [
+    "톰캣",
+    "Tomcat"
+  ],
+  "TDD": [
+    "TDD",
+    "테스트 주도 개발",
+    "Test Driven Development"
+  ],
+  "TCP/IP": [
+    "TCP",
+    "TCP IP",
+    "TCP/IP"
+  ],
+  "Swift": [
+    "Swift",
+    "스위프트"
+  ],
+  "Swagger": [
+    "Swagger",
+    "스웨거"
+  ],
+  "Spring Boot": [
+    "Spring Boot",
+    "스프링부트",
+    "스프링 부트"
+  ],
+  "Spring": [
+    "Spring",
+    "Spring Framework",
+    "스프링",
+    "스프링 프레임워크"
+  ],
+  "Socket": [
+    "Socket",
+    "소켓"
+  ],
+  "Slack": [
+    "Slack",
+    "슬랙"
+  ],
+  "Shell Script": [
+    "Shell Script",
+    "쉘 스크립트",
+    "쉘스크립트",
+    "Shell"
+  ],
+  "Servlet": [
+    "Servlet",
+    "서블릿"
+  ],
+  "Sequelize": [
+    "Sequelize"
+  ],
   "SPA": [
-    "싱글 페이지 어플리케이션", "싱글페이지 어플리케이션", "SPA",
-    "Single Page App", "싱글페이지 앱", "싱글 페이지 앱", "Single Page Application"
+    "싱글 페이지 어플리케이션",
+    "싱글페이지 어플리케이션",
+    "SPA",
+    "Single Page App",
+    "싱글페이지 앱",
+    "싱글 페이지 앱",
+    "Single Page Application"
   ],
-  "MVC Framework": ["MVC Framework", "MVC 프레임워크", "MVC프레임워크"],
-  "MVC Pattern": ["MVC Pattern", "MVC 패턴", "MVC패턴"],
-  "자료구조": ["자료구조", "자료 구조", "Data Structure"],
-  "알고리듬": ["알고리듬", "알고리즘", "Algorithm"],
-  "템플릿 엔진": ["템플릿 엔진", "템플릿엔진", "Template Engine"],
-  "템플릿": ["템플릿", "Template"],
-  "포토샵": ["포토샵", "PhotoShop", "Photo Shop"],
-  "일러스트": ["일러스트", "일러스트레이터", "Illustrator"],
-  "스케치": ["스케치", "Sketch"],
-  "제플린": ["제플린", "Zeplin"],
-  "Slack": ["Slack", "슬랙"],
-  "Jira": ["Jira", "지라"],
-  "애자일": ["애자일", "Agile"],
-  "D3": ["D3", "D3.js"],
-  "캔버스": ["Canvas", "캔버스"],
-  "WebGL": ["WebGL", "웹GL", "웹 GL", "Web GL"],
-  "Typescript": ["Typescript", "TS", "Type Script", "타입스크립트", "타입 스크립트"],
+  "S3": [
+    "S3"
+  ],
+  "Ruby on Rails": [
+    "Ruby on Rails",
+    "Rails",
+    "루비 온 레일스",
+    "루비온레일스",
+    "루비 온 레일즈",
+    "루비온레일즈"
+  ],
+  "Ruby": [
+    "Ruby",
+    "루비"
+  ],
+  "Route53": [
+    "Route53",
+    "Route 53"
+  ],
+  "Redux": [
+    "리덕스",
+    "Redux"
+  ],
+  "Redis": [
+    "Redis",
+    "레디스"
+  ],
+  "React": [
+    "React",
+    "React.js",
+    "React JS",
+    "ReactJS",
+    "리액트",
+    "리액트js",
+    "리액트 JS"
+  ],
+  "RDBMS": [
+    "RDB",
+    "RDBMS",
+    "관계형 DB",
+    "관계형DB",
+    "관계형 데이터베이스",
+    "관계형 데이터 베이스",
+    "관계형DBMS",
+    "관계형 DBMS"
+  ],
+  "Python": [
+    "파이썬",
+    "파이선",
+    "Python"
+  ],
+  "PostgreSQL": [
+    "PostgreSQL",
+    "Postgre SQL",
+    "Postgre"
+  ],
+  "PHP7": [
+    "PHP7",
+    "PHP 7"
+  ],
+  "PHP": [
+    "PHP",
+    "Hypertext Preprocessor"
+  ],
+  "Oracle": [
+    "Oracle",
+    "오라"
+  ],
+  "Objective-C": [
+    "Objective-C",
+    "Objective C"
+  ],
+  "ORM": [
+    "ORM",
+    "Object-relational mapping",
+    "Object relational mapping"
+  ],
+  "OOP": [
+    "OOP",
+    "객체 지향",
+    "객체 지향형",
+    "객체 지향 프로그래밍",
+    "객체 지향형 프로그래밍",
+    "Object Oriented Programming",
+    "객체지향",
+    "객체지향형"
+  ],
+  "OLAP": [
+    "OLAP"
+  ],
+  "Node.js": [
+    "Node.js",
+    "Node",
+    "Node js",
+    "노드",
+    "노드JS",
+    "노드 js"
+  ],
+  "NoSQL": [
+    "NoSQL",
+    "No SQL"
+  ],
+  "MySQL": [
+    "MySQL",
+    "My SQL"
+  ],
+  "Mongoose": [
+    "Mongoose",
+    "몽구스"
+  ],
+  "MongoDB": [
+    "몽고DB",
+    "몽고 DB",
+    "MongoDB",
+    "Mongo DB"
+  ],
+  "Mocha": [
+    "Mocha",
+    "모카"
+  ],
+  "Memcached": [
+    "Memcached"
+  ],
+  "MariaDB": [
+    "MariaDB",
+    "Maria DB",
+    "마리아DB",
+    "마리아 DB"
+  ],
+  "MVVM": [
+    "MVVM"
+  ],
+  "MVC Pattern": [
+    "MVC Pattern",
+    "MVC 패턴",
+    "MVC패턴"
+  ],
+  "MVC Framework": [
+    "MVC Framework",
+    "MVC 프레임워크",
+    "MVC프레임워크"
+  ],
+  "MVC": [
+    "MVC"
+  ],
+  "MV*": [
+    "MV*"
+  ],
+  "MSA": [
+    "마이크로 서비스 아키텍쳐",
+    "마이크로 서비스 아키텍처",
+    "Micro Service Architecture",
+    "MSA",
+    "마이크로서비스 아키텍쳐",
+    "마이크로서비스 아키텍처"
+  ],
+  "MS-SQL": [
+    "msSQL",
+    "MS SQL",
+    "MS-SQL"
+  ],
+  "Logstash": [
+    "Logstash"
+  ],
+  "Load Balancing": [
+    "Load Balancing",
+    "로드밸런싱",
+    "로드 밸런싱"
+  ],
+  "Linux": [
+    "리눅스",
+    "Linux"
+  ],
+  "Leaflet": [
+    "Leaflet"
+  ],
+  "Laravel": [
+    "Laravel",
+    "라라벨"
+  ],
+  "Lambda": [
+    "Lambda",
+    "람다"
+  ],
+  "Kotlin": [
+    "Kotlin",
+    "코틀린"
+  ],
+  "Kibana": [
+    "Kibana",
+    "키바나"
+  ],
+  "Karma": [
+    "Karma",
+    "카르마"
+  ],
+  "Jira": [
+    "Jira",
+    "지라"
+  ],
+  "Jest": [
+    "Jest",
+    "제스트"
+  ],
   "Javascript": [
-    "Javascript", "Java Script", "js", "Vanilla JS", "VanillaJS",
-    "Pure JS", "PureJS", "자바스크립트", "자바 스크립트"
+    "Javascript",
+    "Java Script",
+    "Vanilla JS",
+    "VanillaJS",
+    "Pure JS",
+    "PureJS",
+    "자바스크립트",
+    "자바 스크립트"
   ],
-  "ES2015": [
-    "ES2015", "ES 2015", "ES6", "ES 6", "ECMAScript2015", "ECMAScript 2015",
-    "ECMA Script2015", "ECMA Script 2015", "ECMAScript6", "ECMAScript 6", "ECMA Script6", "ECMA Script 6"
+  "Java8": [
+    "Java8",
+    "Java 8",
+    "자바8",
+    "자바 8"
+  ],
+  "Java": [
+    "자바",
+    "Java"
+  ],
+  "Jasmine": [
+    "Jasmine",
+    "자스민",
+    "재스민"
+  ],
+  "JVM": [
+    "JVM",
+    "자바 가상 머신",
+    "Java Virtual Machine"
+  ],
+  "JSP": [
+    "JSP",
+    "Java Server Pages",
+    "JavaServer Pages",
+    "JavaServer Page",
+    "Java Server Page"
+  ],
+  "JSON": [
+    "JSON"
+  ],
+  "JPA": [
+    "JPA"
+  ],
+  "IoT": [
+    "IoT",
+    "사물인터넷",
+    "사물 인터넷"
+  ],
+  "Hibernate": [
+    "Hibernate",
+    "하이버네이트",
+    "하이버 네이트"
+  ],
+  "HTML5": [
+    "HTML5",
+    "HTML 5"
+  ],
+  "HTML": [
+    "HTML"
+  ],
+  "GPS": [
+    "GPS"
+  ],
+  "GIS": [
+    "GIS"
+  ],
+  "Full Stack": [
+    "Full Stack",
+    "풀스택",
+    "풀 스택"
+  ],
+  "Framework": [
+    "프레임워크",
+    "Framework"
+  ],
+  "Flux": [
+    "플럭스",
+    "Flux"
+  ],
+  "Firebase": [
+    "Firebase",
+    "파이어베이스"
+  ],
+  "Express": [
+    "Express",
+    "Express.js",
+    "ExpressJS",
+    "Express JS",
+    "익스프레스",
+    "익스프레스JS",
+    "익스프레스 JS"
+  ],
+  "ElasticSearch": [
+    "ElasticSearch",
+    "Elastic Search",
+    "엘라스틱 서치",
+    "엘라스틱서치"
   ],
   "ES2015+": [
-    "ES2015+", "ES 2015+", "ES6+", "ES 6+", "ECMAScript2015+", "ECMAScript 2015+",
-    "ECMA Script2015+", "ECMA Script 2015+", "ECMAScript6+", "ECMAScript 6+", "ECMA Script6+", "ECMA Script 6+"
+    "ES2015+",
+    "ES 2015+",
+    "ES6+",
+    "ES 6+",
+    "ECMAScript2015+",
+    "ECMAScript 2015+",
+    "ECMA Script2015+",
+    "ECMA Script 2015+",
+    "ECMAScript6+",
+    "ECMAScript 6+",
+    "ECMA Script6+",
+    "ECMA Script 6+"
   ],
-  "CSS 방법론": ["CSS 방법론", "CSS방법론"],
-  "BEM": ["BEM", "Block Element Modifier"],
-  "모바일": ["Mobile", "모바일"],
-  "태블릿": ["태블릿", "Tablet"],
-  "jQuery": ["jQuery", "제이쿼리"],
-  "ajax": ["ajax", "에이잭스", "아약스", "에이작스"],
-  "비동기": ["비동기", "비동기 통신", "비동기 코드"],
-  "Node.js": ["Node.js", "Node", "Node js", "노드", "노드JS", "노드 js"],
-  "Express": ["Express", "Express.js", "ExpressJS", "Express JS", "익스프레스", "익스프레스JS", "익스프레스 JS"],
-  "MongoDB": ["몽고DB", "몽고 DB", "MongoDB", "Mongo DB"],
-  "Mongoose": ["Mongoose", "몽구스"],
-  "NoSQL": ["NoSQL", "No SQL"],
-  "RDBMS": ["RDB", "RDBMS", "관계형 DB", "관계형DB", "관계형 데이터베이스", "관계형 데이터 베이스", "관계형DBMS", "관계형 DBMS"],
-  "MySQL": ["MySQL", "My SQL"],
-  "MS-SQL": ["msSQL", "MS SQL", "MS-SQL"],
-  "PostgreSQL": ["PostgreSQL", "Postgre SQL", "Postgre"],
-  "MariaDB": ["MariaDB", "Maria DB", "마리아DB", "마리아 DB"],
-  "Oracle": ["Oracle", "오라"],
-  "Redis": ["Redis", "레디스"],
-  "Redux": ["리덕스", "Redux"],
-  "Flux": ["플럭스", "Flux"],
-  "MSA": [
-    "마이크로 서비스 아키텍쳐", "마이크로 서비스 아키텍처", "Micro Service Architecture", "MSA",
-    "마이크로서비스 아키텍쳐", "마이크로서비스 아키텍처"
+  "ES2015": [
+    "ES2015",
+    "ES 2015",
+    "ES6",
+    "ES 6",
+    "ECMAScript2015",
+    "ECMAScript 2015",
+    "ECMA Script2015",
+    "ECMA Script 2015",
+    "ECMAScript6",
+    "ECMAScript 6",
+    "ECMA Script6",
+    "ECMA Script 6"
   ],
-  "TDD": ["TDD", "테스트 주도 개발", "Test Driven Development"],
-  "테스트": ["Test", "테스트"],
-  "Mocha": ["Mocha", "모카"],
-  "Karma": ["Karma", "카르마"],
-  "Jasmine": ["Jasmine", "자스민", "재스민"],
-  "Jest": ["Jest", "제스트"],
-  "컴포넌트": ["컴포넌트", "Component"],
-  "크롤링": ["크롤러", "크롤링", "크롤", "Crawler", "Crawling", "Crawl"],
-  "Memcached": ["Memcached"],
-  "C": ["C", "C언어", "C 언어"],
-  "C++": ["C++"],
-  "C#": ["C#"],
-  ".net": ["dot net", ".net", "닷넷", "ASP.net", "ASP 닷넷"],
-  "ASP": ["ASP", "Active Server Page"],
-  "Java": ["자바", "Java"],
-  "JVM": ["JVM", "자바 가상 머신", "Java Virtual Machine"],
-  "Java8": ["Java8", "Java 8", "자바8", "자바 8"],
-  "API": ["API", "Application Programming Interface"],
-  "rest API": ["rest", "restful", "restful API", "rest API"],
-  "MVC": ["MVC"],
-  "MVVM": ["MVVM"],
-  "MV*": ["MV*"],
-  "모니터링": ["모니터링", "Monitoring"],
-  "Servlet": ["Servlet", "서블릿"],
-  "JSP": ["JSP", "Java Server Pages", "JavaServer Pages", "JavaServer Page", "Java Server Page"],
-  "PHP": ["PHP", "Hypertext Preprocessor"],
-  "PHP7": ["PHP7", "PHP 7"],
-  "OOP": ["OOP", "객체 지향", "객체 지향형", "객체 지향 프로그래밍", "객체 지향형 프로그래밍", "Object Oriented Programming"],
-  "절차 지향 프로그래밍": ["절차 지향 프로그래밍", "절차 지향", "절차 지향형", "절차 지향형 프로그래밍"],
-  "함수형": ["함수형 프로그래밍", "함수형", "FP", "Functional Programming", "Functional"],
-  "스칼라": ["Scala", "스칼라"],
-  "구글 어날리틱스": ["GA", "구글 애널리틱스", "구글 어날리틱스", "Google Analytics"],
-  "AWS": ["AWS", "Amazon Web Service", "아마존 웹 서비스"],
-  "디자인 패턴": ["디자인패턴", "디자인 패턴", "Design Pattern"],
-  "XHTML": ["XHTML"],
-  "XML": ["XML"],
-  "JSON": ["JSON"],
-  "Assembly": ["Assembly", "어셈블리", "어셈블리어", "어셈블리 언어", "Assembly Language"],
-  "Linux": ["리눅스", "Linux"],
-  "Unix": ["유닉스", "Unix"],
-  "무중단 배포": ["무중단 배포"],
-  "정규표현식": ["정규식", "정규표현식", "정규 표현식", "RexEx", "RexExp", "Regular Expression"],
-  "네트워크": ["Network", "네트워크"],
-  "S3": ["S3"],
-  "Route53": ["Route53", "Route 53"],
-  "Lambda": ["Lambda", "람다"],
-  "크로스브라우징": ["크로스 브라우징", "크로스브라우징", "Cross Browsing"],
-  "EC2": ["EC2", "EC 2"],
-  "ORM": ["ORM", "Object-relational mapping", "Object relational mapping"],
-  "Sequelize": ["Sequelize"],
-  "JPA": ["JPA"],
-  "Spring": ["Spring", "Spring Framework", "스프링", "스프링 프레임워크"],
-  "Spring Boot": ["Spring Boot", "스프링부트", "스프링 부트"],
-  "Kotlin": ["Kotlin", "코틀린"],
-  "Android": ["안드로이드", "Android"],
-  "iOS": ["iOS"],
-  "Swift": ["Swift", "스위프트"],
-  "Objective-C": ["Objective-C", "Objective C"],
-  "DNS": ["DNS"],
-  "Load Balancing": ["Load Balancing", "로드밸런싱", "로드 밸런싱"],
-  "Ruby": ["Ruby", "루비"],
-  "Ruby on Rails": ["Ruby on Rails", "Rails", "루비 온 레일스", "루비온레일스", "루비 온 레일즈", "루비온레일즈"],
-  "Python": ["파이썬", "파이선", "Python"],
-  "Django": ["장고", "Django"],
-  "ejs": ["EJS"],
-  "handlebars": ["Handlebars", "Handlebar", "핸들바"],
-  "jade": ["jade"],
-  "mustache": ["mustache", "mustache.js", "mustache js"],
-  "머신러닝": ["머신 러닝", "머신러닝", "Machine Learning"],
-  "딥러닝": ["딥러닝", "딥 러닝", "Deep Learning"],
-  "IoT": ["IoT", "사물인터넷", "사물 인터넷"],
-  "xBatis": ["xBatis"],
-  "myBatis": ["myBatis"],
-  "iBatis": ["iBatis"],
-  "Arduino": ["아두이노", "Arduino"],
-  "라즈베리 파이": ["라즈베리파이", "라즈베리 파이", "Raspberry Pi"],
-  "TCP/IP": ["TCP", "TCP IP", "TCP/IP"],
-  "CI": ["CI", "continuous integration", "지속적인 통합", "지속적 통합"],
-  "Travis CI": ["Travis CI", "Travis"],
-  "Docker": ["Docker", "도커"],
-  "클라우드": ["클라우드", "클라우드 컴퓨팅", "Cloud", "Cloud Computing"],
-  "WAS": ["WAS", "Web Application Server"],
-  "Tomcat": ["톰캣", "Tomcat"],
-  "웹서버": ["Web server", "웹서버", "웹 서버"],
-  "Apache": ["Apache", "아파치"],
-  "nginx": ["nginx", "엔진엑스", "엔진 엑스"],
-  "Firebase": ["Firebase", "파이어베이스"],
-  "Trello": ["Trello", "트렐로"],
-  "Swagger": ["Swagger", "스웨거"],
-  "ElasticSearch": ["ElasticSearch", "Elastic Search", "엘라스틱 서치", "엘라스틱서치"],
-  "Logstash": ["Logstash"],
-  "Kibana": ["Kibana", "키바나"],
-  "git": ["git", "깃"],
-  "github": ["github", "깃헙"],
-  "svn": ["svn", "subversion"],
-  "버전 관리": ["버전 관리", "버전관리", "형상관리", "형상 관리"]
+  "EC2": [
+    "EC2",
+    "EC 2"
+  ],
+  "Docker": [
+    "Docker",
+    "도커"
+  ],
+  "Django": [
+    "장고",
+    "Django"
+  ],
+  "DNS": [
+    "DNS"
+  ],
+  "DB": [
+    "DB",
+    "데이터베이스",
+    "데이터 베이스",
+    "Data Base",
+    "Database"
+  ],
+  "D3": [
+    "D3",
+    "D3.js"
+  ],
+  "CommonJS": [
+    "CommonJS",
+    "Common.js",
+    "Common JS"
+  ],
+  "CodeIgniger": [
+    "CodeIgniger",
+    "Code Igniger",
+    "코드 이그나이터",
+    "코드이그나이터"
+  ],
+  "CSS3": [
+    "CSS3",
+    "CSS 3"
+  ],
+  "CSS2": [
+    "CSS2",
+    "CSS 2"
+  ],
+  "CSS 전처리기": [
+    "CSS전처리기",
+    "CSS 전처리기",
+    "CSS Preprocessor"
+  ],
+  "CSS 방법론": [
+    "CSS 방법론",
+    "CSS방법론"
+  ],
+  "CSS": [
+    "CSS"
+  ],
+  "CI": [
+    "CI",
+    "continuous integration",
+    "지속적인 통합",
+    "지속적 통합"
+  ],
+  "C++": [
+    "C++"
+  ],
+  "C#": [
+    "C#"
+  ],
+  "C": [
+    "C언어",
+    "C 언어"
+  ],
+  "Bootstrap": [
+    "부트스트랩",
+    "Bootstrap"
+  ],
+  "Backbone": [
+    "Backbone",
+    "백본"
+  ],
+  "Babel": [
+    "Babel",
+    "Babel.js",
+    "Babel JS",
+    "바벨",
+    "바벨JS",
+    "바벨.JS",
+    "바벨 JS"
+  ],
+  "BEM": [
+    "BEM",
+    "Block Element Modifier"
+  ],
+  "Assembly": [
+    "Assembly",
+    "어셈블리",
+    "어셈블리어",
+    "어셈블리 언어",
+    "Assembly Language"
+  ],
+  "Arduino": [
+    "아두이노",
+    "Arduino"
+  ],
+  "Apache": [
+    "Apache",
+    "아파치"
+  ],
+  "AngularJS": [
+    "AngularJS",
+    "Angular.js",
+    "Angular1",
+    "AngularJS1",
+    "Angular.js1",
+    "Angular 1",
+    "AngularJS 1",
+    "Angular.js 1",
+    "앵귤러1",
+    "앙귤라1",
+    "앵귤러JS",
+    "앵귤러JS1",
+    "앙귤라JS1",
+    "앵귤러 1",
+    "앙귤라 1",
+    "앵귤러 JS",
+    "앵귤러 JS1",
+    "앙귤라 JS1",
+    "앵귤러JS 1",
+    "앙귤라JS 1",
+    "앵귤러 JS 1",
+    "앙귤라 JS 1"
+  ],
+  "Angular4": [
+    "Angular4",
+    "AngularJS4",
+    "Angular.js4",
+    "Angular 4",
+    "AngularJS 4",
+    "Angular.js 4",
+    "앵귤러4",
+    "앙귤라4",
+    "앵귤러JS4",
+    "앙귤라JS4",
+    "앵귤러 4",
+    "앙귤라 4",
+    "앵귤러 JS4",
+    "앙귤라 JS4",
+    "앵귤러JS 4",
+    "앙귤라JS 4",
+    "앵귤러 JS 4",
+    "앙귤라 JS 4"
+  ],
+  "Angular2": [
+    "Angular2",
+    "AngularJS2",
+    "Angular.js2",
+    "Angular 2",
+    "AngularJS 2",
+    "Angular.js 2",
+    "앵귤러2",
+    "앙귤라2",
+    "앵귤러JS2",
+    "앙귤라JS2",
+    "앵귤러 2",
+    "앙귤라 2",
+    "앵귤러 JS2",
+    "앙귤라 JS2",
+    "앵귤러JS 2",
+    "앙귤라JS 2",
+    "앵귤러 JS 2",
+    "앙귤라 JS 2"
+  ],
+  "Angular": [
+    "Angular",
+    "앵귤러",
+    "앙귤라"
+  ],
+  "Android": [
+    "안드로이드",
+    "Android"
+  ],
+  "AWS": [
+    "AWS",
+    "Amazon Web Service",
+    "아마존 웹 서비스"
+  ],
+  "ASP": [
+    "ASP",
+    "Active Server Page"
+  ],
+  "API": [
+    "API",
+    "Application Programming Interface"
+  ],
+  "AMD": [
+    "AMD"
+  ],
+  ".net": [
+    "dot net",
+    ".net",
+    "닷넷",
+    "ASP.net",
+    "ASP 닷넷"
+  ]
 }
