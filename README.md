@@ -1,4 +1,8 @@
 # keyword-dic
+[![NPM](https://nodei.co/npm/keyword-dic.png)](https://nodei.co/npm/keyword-dic/)
+[![npm](https://img.shields.io/npm/dt/keyword-dic.svg)](https://www.npmjs.com/package/keyword-dic)
+[![npm](https://img.shields.io/npm/v/keyword-dic.svg)](https://www.npmjs.com/package/keyword-dic)
+
 ## 만든 계기
 기업에서 원하는 인재가 되기 위해 알아야 할 내용들은 무엇이 있는지,  
 다수의 기업에서 원하는 기술은 무엇인지, 손 쉽게 알아보고자 만들었습니다.  
@@ -6,7 +10,11 @@
 아래 링크는 채용 공고를 형태소 단위로 분석하여 빈도수를 도출한 결과인데 명사만 걸러내다 보니  
 쓸 데 없는 키워드(개발, 이상, 경력 등등)가 너무 많이 검출되거나  
 쓸 데 있는 키워드(웹표준이 웹과 표준 따로 분류되는 경우) 조차 쓸 데 없는 키워드로 바뀌는 경우가 존재합니다.  
-[형태소 단위로 분석한 크롤러](https://perfectacle.github.io/crawl-temp/)
+
+* [형태소 단위로 분석한 크롤러](https://perfectacle.github.io/crawl-temp/)  
+* [keyword-dic을 이용하여 키워드 단위로 분석한 크롤러](https://perfectacle.github.io/crawl-temp/v2)
+
+~~좀 더 양질의 정보를 원하신다면 제발 참여해주세요 ㅠㅠ~~
 
 블랙 리스트 방식으로 쓸 데 없는 키워드만 걸러내려고 했는데 끝이 없고,  
 쓸 데 있는 키워드를 살릴 수 없어서 화이트 리스트 방식으로 올바른 키워드들만 필터링하는 게 낫다는 판단이 들었습니다.  
