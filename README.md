@@ -72,3 +72,25 @@ import dic from 'keyword-dic'
 // CommonJS
 const dic = require('keyword-dic');
 ```
+
+## 정렬하기 (가나다 역순)
+```bash
+node sorter
+```
+
+위 명령어를 실행하면 기존 dick.json은 dick-back.json으로 백업 파일이 만들어지며 가나다 역순으로 정렬한 dick.json이 새로 생성됩니다.
+
+## 샘플 텍스트로부터 키워드 뽑아내기
+```bash
+node seracher TXT_FILE
+```
+
+TXT_FILE에는 텍스트 파일이 존재하는 상대 경로 및 확장자까지 전부 적어주셔야합니다.  
+예를 들어 프로젝트 디렉토리에 sample.txt가 있다고 하면 아래와 같이 입력해주셔야합니다
+```bash
+node searcher sample.txt
+```
+
+위 명령어를 실행하면 sample.txt와 같은 디렉토리에 사전에 존재하는 키워드들을 모조리 지운 sample-filtered.txt가 생성됩니다.  
+위 방법은 도저히 어떤 키워드들이 중복됐는지 감이 잡히지 않을 때,  
+다양한 키워드들이 있는 텍스트를 긁어와서 중복되지 않는 키워드를 검출하는 데 용이합니다.

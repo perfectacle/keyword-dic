@@ -1,2 +1,6 @@
 .gitignore
 .npmignore
+dic-back.json
+sorter.js
+searcher.js
+*.txt

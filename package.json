@@ -1,6 +1,6 @@
 {
   "name": "keyword-dic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Keyword about programming dictionary",
   "main": "./dic.json",
   "repository": {
