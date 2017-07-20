@@ -1,4 +1,8 @@
 # keyword-dic
+[![NPM](https://nodei.co/npm/keyword-dic.png)](https://nodei.co/npm/keyword-dic/)
+[![npm](https://img.shields.io/npm/dt/keyword-dic.svg)](https://www.npmjs.com/package/keyword-dic)
+[![npm](https://img.shields.io/npm/v/keyword-dic.svg)](https://www.npmjs.com/package/keyword-dic)
+
 ## 만든 계기
 기업에서 원하는 인재가 되기 위해 알아야 할 내용들은 무엇이 있는지,  
 다수의 기업에서 원하는 기술은 무엇인지, 손 쉽게 알아보고자 만들었습니다.  
